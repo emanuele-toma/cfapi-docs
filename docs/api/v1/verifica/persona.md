@@ -45,7 +45,7 @@ Authorization: Bearer <API_KEY>
 ### 📌 Esempio di richiesta con **cURL**
 
 ```sh
-curl -X GET "https://api.tuosito.com/api/v1/verifica/persona/ABCDEF12G34H567I?cognome=Rossi&nome=Giovanni&dataNascita=1990-01-01&provincia=RM&comune=Roma&sesso=M" \
+curl -X GET "https://api.codicefiscale.dev/api/v1/verifica/persona/ABCDEF12G34H567I?cognome=Rossi&nome=Giovanni&dataNascita=1990-01-01&provincia=RM&comune=Roma&sesso=M" \
      -H "Authorization: Bearer <API_KEY>"
 ```
 
@@ -82,7 +82,7 @@ curl -X GET "https://api.tuosito.com/api/v1/verifica/persona/ABCDEF12G34H567I?co
 
 ```javascript
 fetch(
-  "https://api.tuosito.com/api/v1/verifica/persona/ABCDEF12G34H567I?cognome=Rossi&nome=Giovanni&dataNascita=1990-01-01&provincia=RM&comune=Roma&sesso=M",
+  "https://api.codicefiscale.dev/api/v1/verifica/persona/ABCDEF12G34H567I?cognome=Rossi&nome=Giovanni&dataNascita=1990-01-01&provincia=RM&comune=Roma&sesso=M",
   {
     headers: {
       Authorization: "Bearer <API_KEY>",
@@ -99,7 +99,7 @@ fetch(
 ```python
 import requests
 
-url = "https://api.tuosito.com/api/v1/verifica/persona/ABCDEF12G34H567I"
+url = "https://api.codicefiscale.dev/api/v1/verifica/persona/ABCDEF12G34H567I"
 params = {
     "cognome": "Rossi",
     "nome": "Giovanni",

@@ -28,7 +28,7 @@ Questa API **non richiede autenticazione**.
 ### 📌 Esempio di richiesta con **cURL**
 
 ```sh
-curl -X GET "https://api.tuosito.com/api/v1/verifica/partita-iva/IT12345678901"
+curl -X GET "https://api.codicefiscale.dev/api/v1/verifica/partita-iva/IT12345678901"
 ```
 
 ## 📤 Risposta
@@ -64,7 +64,7 @@ curl -X GET "https://api.tuosito.com/api/v1/verifica/partita-iva/IT12345678901"
 ### 🛠 **Esempio con JavaScript (fetch)**
 
 ```javascript
-fetch("https://api.tuosito.com/api/v1/verifica/partita-iva/IT12345678901")
+fetch("https://api.codicefiscale.dev/api/v1/verifica/partita-iva/IT12345678901")
   .then((response) => response.json())
   .then((data) => console.log(data))
   .catch((error) => console.error("Errore:", error));
@@ -75,7 +75,7 @@ fetch("https://api.tuosito.com/api/v1/verifica/partita-iva/IT12345678901")
 ```python
 import requests
 
-url = "https://api.tuosito.com/api/v1/verifica/partita-iva/IT12345678901"
+url = "https://api.codicefiscale.dev/api/v1/verifica/partita-iva/IT12345678901"
 
 response = requests.get(url)
 print(response.json())
